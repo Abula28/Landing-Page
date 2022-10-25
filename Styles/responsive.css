@@ -1,0 +1,161 @@
+@import "style.css";
+@media(max-width: 900px){
+    .some-links{
+        /* border: 2px solid red; */
+        height: 100vh;
+        background-color: var(--primary-green);
+        display: flex;
+        position: absolute;
+        position: fixed;
+        top: 2%;
+        left: 1000%;
+        align-items: center;
+        text-align: left;
+        justify-content: flex-start;
+    }
+
+    .check{
+        right: 10%;
+    }
+
+
+    nav ul li{
+        /* display: block; */
+        text-align: center;
+        border: 1px solid #fff;
+        margin: 5px;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .some-links.active{
+        left: 50%;
+    }
+    
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        /* border: 2px solid red; */
+        width: 41%;
+    }
+
+    nav ul li a{
+        font-weight: 600;
+        color: #fff;
+    }
+
+    .header-btns{
+        position: absolute;
+        bottom: 20%;
+        right: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+    .header-btns button{
+        margin: 5px;
+    }
+
+    .get-started{
+        border: 1px solid #fff;
+        padding: 14px 50px 14px 50px;
+    }
+
+    .hamburger{
+        display: block;
+        position: absolute;
+        position: fixed;
+        right: 50px;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .brands{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .brands .brands-logo{
+        padding-bottom: 50px;
+    }
+
+    .main-header{
+        font-size: 55px;
+    }
+
+   @media(max-width: 617px){
+    .newsletter form input:first-child{
+        padding: 25px 320px 28px 25px;
+    }
+
+    .newsletter form input:last-child{
+        top: 2.5px;
+        right: -30px;
+    }
+   }
+
+    @media(max-width: 375px){
+        nav ul{
+            width: 34%;
+        }
+
+        .newsletter form input:first-child{
+            padding: 25px 200px 28px 25px;
+        }
+    
+        .newsletter form input:last-child{
+            top: 20px;
+            right: 1px;
+            padding: 5px 10px 5px;
+        }
+        
+        .header-btns{
+            bottom: 20%;
+            right: 50%;
+        }
+
+    }
+
+    @media(max-width: 414px){
+        nav ul{
+            width: 34%;
+        }
+        
+        .header-btns{
+            bottom: 20%;
+            right: 53%;
+        }
+
+    }
+
+    @media(max-width: 280px){
+        nav ul{
+            width: 30%;
+        }
+        
+        .header-btns{
+            bottom: 15%;
+            right: 53%;
+        }
+
+        .get-started{
+            border: 1px solid #fff;
+            padding: 10px 20px 10px 20px;
+        }
+
+        .sign-in{
+            padding: 10px 20px 10px 20px;
+        }
+    }
+}
