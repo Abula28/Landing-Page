@@ -197,7 +197,7 @@ input[type="checkbox"]:checked ~ .check:after{
 
 
 .main{
-    background-image: url(imgs/Group-2532.png);
+    background-image: url(/imgs/Group-2532.png);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -420,6 +420,7 @@ input[type="checkbox"]:checked ~ .check:after{
 .vector{
     position: absolute;
     right: 25px;
+    cursor: pointer;
 }
 
 .rectangles{
