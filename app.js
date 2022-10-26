@@ -13,6 +13,10 @@ let mainContainer = document.querySelector('.main')
 let topLeftCircles = document.querySelector('.Group-2533')
 let frameDark = document.querySelector('.frame-21')
 let frameDark2 = document.querySelector('.frame-22')
+let onePng = document.querySelector('.one')
+let twoPng = document.querySelector('.two')
+let threePng = document.querySelector('.three')
+let fourPng = document.querySelector('.four')
 
 
 darkCheck.addEventListener('click',function(){
@@ -28,6 +32,10 @@ darkCheck.addEventListener('click',function(){
     topLeftCircles.src = "imgs/Group-2533-dark.png"
     frameDark.src = "imgs/Frame-21-dark.png"
     frameDark2.src = "imgs/Frame-22-dark.png"
+    onePng.src = "imgs/1-dark.png"
+    twoPng.src = "imgs/2-dark.png"
+    threePng.src = "imgs/3-dark.png"
+    fourPng.src = "imgs/4-dark.png"
 
     }
     
@@ -42,7 +50,11 @@ darkCheck.addEventListener('click',function(){
     mainContainer.style.backgroundImage = "url(imgs/Group-2532.png)"
     topLeftCircles.src = "imgs/Group-2533.png"
     frameDark.src = "imgs/Frame-21.png"
-    frameDark2.src = "imgs/Frame-22.png"    
+    frameDark2.src = "imgs/Frame-22.png"   
+    onePng.src = "imgs/1.png"
+    twoPng.src = "imgs/2.png"
+    threePng.src = "imgs/3.png"
+    fourPng.src = "imgs/4.png" 
 
     }
 })
