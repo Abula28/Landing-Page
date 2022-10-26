@@ -503,3 +503,95 @@ input[type="checkbox"]:checked ~ .check:after{
     line-height: 20px;
     cursor: pointer;
 }
+
+
+.costumers-say{
+    padding-top: 200px;
+}
+
+.costumer-header{
+    padding-bottom: 32px;
+}
+
+.costumers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.costumer-p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 177%;
+    padding: 0px 0px 48px;
+    color: var(--secondary-color);
+}
+
+.costumers-cards{
+    display: flex;
+}
+
+.cc{
+    padding-left: 48px;
+}
+
+
+.costumer-card{
+    width: 686px;
+    height: 377px;
+    background-color: var(--primary-rect-bgColor);
+    display: flex;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+}
+
+.costumer-card img {
+    padding: 0;
+    margin: 0;
+    width: 302px;
+    height: 377px;
+}
+
+.cos-card-p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 177%;
+    color: var(--secondary-color);
+    padding: 32px 32px 0px;
+}
+
+.costumer-name{
+    position: absolute;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 177%;
+    color: var(--secondary-color);
+    bottom: 32px;
+    left: 334px;
+}
+
+.view{
+    padding-top: 70px;
+}
+
+.view-btn{
+    padding: 22px 70px 22px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--primary-green);
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.download-app{
+    padding: 200px 0px 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

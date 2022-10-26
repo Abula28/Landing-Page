@@ -17,6 +17,7 @@ let onePng = document.querySelector('.one')
 let twoPng = document.querySelector('.two')
 let threePng = document.querySelector('.three')
 let fourPng = document.querySelector('.four')
+let downloadPng = document.querySelector('.download-png')
 
 
 darkCheck.addEventListener('click',function(){
@@ -36,6 +37,7 @@ darkCheck.addEventListener('click',function(){
     twoPng.src = "imgs/2-dark.png"
     threePng.src = "imgs/3-dark.png"
     fourPng.src = "imgs/4-dark.png"
+    downloadPng.src = "imgs/download-dark.png"
 
     }
     
@@ -54,7 +56,8 @@ darkCheck.addEventListener('click',function(){
     onePng.src = "imgs/1.png"
     twoPng.src = "imgs/2.png"
     threePng.src = "imgs/3.png"
-    fourPng.src = "imgs/4.png" 
+    fourPng.src = "imgs/4.png"
+    downloadPng.src = "imgs/download.png" 
 
     }
 })
