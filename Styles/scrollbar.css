@@ -1,0 +1,13 @@
+@import "style.css";
+::-webkit-scrollbar{
+    width: 1em;
+}
+
+::-webkit-scrollbar-track{
+    background-color: var(--primary-rect-bgColor);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--primary-green);
+    border-radius: 20px;
+}
