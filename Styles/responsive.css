@@ -150,6 +150,85 @@
         height: 80%;
     }
 
+
+    .costumers{
+        display: flex;
+        /* justify-content: center;
+        align-items: center; */
+        padding-left: 15%;
+    }
+
+    .costumers h2{
+        text-align: center;
+    }
+
+    .costumers-cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cc{
+        padding-bottom: 24px;
+    }
+
+
+    .last-sect{
+        height: 100vh;
+    }
+
+    .last-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lat-logo{
+        padding-top: 55px;
+    }
+
+
+
+    .last-div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .last-line{
+        display: none;
+    }
+
+    .credits .credits-list p{
+        display: none;
+    }
+
+    .credits-list {
+        display: none;
+    }
+
+    .last-cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .last-cards2{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .follow{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-right: 150px;
+    }
+
+    .call{
+        position: absolute;
+    }
+
+}
    @media(max-width: 617px){
     .newsletter form input:first-child{
         padding: 25px 320px 28px 25px;
@@ -251,4 +330,4 @@
             padding: 10px 20px 10px 20px;
         }
     }
-}
+

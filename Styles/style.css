@@ -17,8 +17,6 @@ body{
     --secondary-green: #23B123;
     --input-primary-color: #6f7b811a;
     --input-secondary-color: #fff;
-    /* --ellipse-primary-bgColor: #0080001a;
-    --elipse-secondary-bgColor: #ffffff0d; */
     --primary-rect-bgColor: #0080000d;
     --secondary-rect-bgColor: #ffffff0d;
     --primary-borderColor: #2632384f;
@@ -627,8 +625,9 @@ input[type="checkbox"]:checked ~ .check:after{
 .last-cards{
     display: flex;
     flex-direction: column;
-    
 }
+
+
 
 .last-cards2{
     display: flex;
@@ -771,4 +770,5 @@ input[type="checkbox"]:checked ~ .check:after{
 
 .credits-list ul li{
     padding: 0px 35px 0px;
+    color: var(--secondary-color);
 }
